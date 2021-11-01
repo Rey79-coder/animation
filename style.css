@@ -1,0 +1,173 @@
+/*
+ Theme Name:   masonry blogwaves
+ Theme URI:    
+ Description:  Masonry Blogwaves is child theme of blogwaves blog theme. Masonry Blogwaves is free, personal, elegent WordPress blog theme. Masonry Masonry Blogwaves theme having setting in customizer and can check live change of settings. Bloagwaves having topbar header, social icons, sidebar features and many more features. Masonry Blogwaves is a perfect responsive magazine style WordPress theme. This theme is suitable for news, newspaper, magazine, publishing, business and any kind of sites. Blogwave is a 100% GPL and minimal WordPress blog theme. Also theme is Gutenberg ready. So it will work fie with the latest version of WordPress. Theme is compatible with all blocks and patterns of WordPress. This theme is developed based on customizer settings. You can see the live changes that you have made in customizer. Blogwave also comes with added custom widgets for author, featured posts and social icons. It has top level menu, social icons, slider, promotional banner, sidebar option & many more other features. In addition, it has copyright text, go to the top, footer widgets, blog page options, related posts, sidebar, etc. This theme is lightweight and easy to use theme for travel blog, food blog, technology blog and fashion blog or any type of news website. You can also use this theme for personal blog and magazine sites too. Furthermore, it comes with demo data to make the site like the demo, detailed documentation including video and text, free support via chat and forum. It is developed by the experts WordPress developers so that you will never look for alternatives after using this theme. Try this awesome and carefully crafted theme today.
+ Author:       blogwp
+ Author URI:   
+ Template:     blogwaves
+ Version:      1.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         left-sidebar, right-sidebar, custom-logo, custom-menu, featured-images, footer-widgets, custom-colors, custom-header, theme-options, threaded-comments, blog
+ Text Domain:  masonry-blogwaves
+*/
+
+
+.child-menu{
+    background:#fff !important;
+}
+
+.footer-section-child .copyright-footer-child {
+    background: linear-gradient(to right, #5856d5 0%, #ff1d5b 100%) !important;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.footer-section-child .copyright-footer-child p {
+    color: #ffffff;
+    margin: 0;
+}
+
+.wp-main-header .child-menu .topbar-right ul li a {
+    border-radius: 50%;
+}
+
+.menu-bg #top-menu{
+    background: #000 !important;
+    text-align: center;
+}
+
+.wp-blog-section .blog-meta li a {
+    color: #000;
+}
+
+.widget-area li a{
+    color: #000;
+}
+
+.wp-blog-section .blog-child-wrap .content-part {
+    padding: 0px 25px 45px;
+}
+
+.wp-blog-section .blog-child-wrap .content-part .title:before {
+    left: -30px;
+}
+
+.content-part a{
+    color: #000;
+    text-decoration: underline;
+}
+
+.logged-in-as a{
+    color: #000;
+}
+
+.blog-meta .byline a{
+    text-decoration: none !important;
+}
+.blog-meta .posted-on a{
+    text-decoration: none !important;
+}
+
+.wp-blog-section .blog-child-wrap .content-part h3 a {
+    text-decoration: none;
+}
+
+.wp-blog-section .blog-child-wrap .content-part .read-more {
+    text-decoration: none;
+}
+
+.wp-main-header .wp-topbar-menu {
+    border-bottom: 1px solid #ebe8e8;
+}
+
+.wp-blog-section .blog-child-wrap .content-part .category-name a {
+    text-decoration: none;
+}
+
+.wp-blog-section .blog-child-wrap .post-tags a {
+    text-decoration: none;
+}
+
+.wp-blog-section .blog-child-wrap .post-navigation .post-prev a, .post-navigation .post-next a {
+    text-decoration: none;
+}
+
+.wp-block-tag-cloud a{
+    padding: 10px 20px 10px 0px;
+    line-height: 44px;
+    font-weight: 600;
+    font-size: 15px !important;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+    color: #000;
+}
+
+.column-2{ width: auto; height: auto; margin: 0 0 0 0px; }
+
+.blog-child-wrap{ width: 335px; height: auto; float: left; margin: 0 0 40px 20px; border-radius: 5px; }
+
+.wp-blog-section .blog-child-wrap .content-part .title:before {
+    display: none;
+}
+
+.wp-blog-section .blog-child-wrap .content:before {
+    display: none;
+}
+
+.blog-child-wrap {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+}
+
+.comment-metadata a{
+    color: #000;
+}
+
+.url{
+    color: #000;
+}
+
+.main-navigation .menu-item-has-children>a:after {
+    top: 23px;
+}
+
+.wp-block-latest-posts a{
+    color: #000;
+}
+
+@media only screen and (max-width: 991px){
+.main-navigation {
+    background-color: #000;
+    padding: 0;
+}
+.main-navigation li a{
+    color: #fff;
+}
+
+.menu-toggle{
+    color: #fff;
+}
+
+.dropdown-toggle {
+    
+    color: #fff;
+}
+
+.main-navigation ul {
+    background: #000;
+}
+
+.dropdown-toggle::after {
+    position: initial;
+    top: 8px;
+    left: 65px;
+    content: "\f067";
+    font-family: 'FontAwesome';
+    border-top: navajowhite;
+    border-right: none;
+    border-bottom: 0;
+    border-left: none;
+}
+
+
+}
